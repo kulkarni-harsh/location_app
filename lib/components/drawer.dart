@@ -13,7 +13,7 @@ Drawer drawer(BuildContext context) {
           style: TextStyle(fontSize: 30),
         ),
         decoration: BoxDecoration(
-          color: Colors.teal,
+          color: Colors.blue,
         ),
       ),
     ),
