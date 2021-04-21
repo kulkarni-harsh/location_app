@@ -53,7 +53,7 @@ class _GroupsState extends State<Groups> {
             child: Icon(Icons.add),
             onPressed: () {
               setState(() {
-                int tempPlusOne = groups.length + 1;
+                int tempPlusOne = groups.length++;
                 groups.add('Group $tempPlusOne');
               });
             }));

@@ -34,15 +34,6 @@ Drawer drawer(BuildContext context) {
           MaterialPageRoute(builder: (context) => Groups()),
         );
       },
-    ),
-    ListTile(
-      title: Text('Places'),
-      onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => Places()),
-        );
-      },
     )
   ])));
 }
